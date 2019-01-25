@@ -35,9 +35,9 @@ function KaprekarsConstant(num) {
             null
         } else {
             KaprekarsConstant(answer);
-          }
+        }
     } else {
-        answer = Number(newAscDigits) - Number(descDigits);
+        answer = Number(ascDigits) - Number(descDigits);
         counter += 1;
         if (answer === 6174) {
             null
