@@ -21,7 +21,7 @@ function beggars(values, n) {
     }, []);
 
   let diffArr = values.filter(x => !arr.includes(x));
-  finalSum.push(sum)
+  finalSum.push(sum);
 
   n--
   if (n === 0) {
