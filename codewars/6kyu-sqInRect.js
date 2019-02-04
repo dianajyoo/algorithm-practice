@@ -1,4 +1,4 @@
-<a href="https://www.codewars.com/kata/rectangle-into-squares/train/javascript">Link to Algorithm</a>
+<script type="text/javascript" src="https://www.codewars.com/kata/rectangle-into-squares/train/javascript">Link to Algorithm</script>
 
 function sqInRect(lng, wdth) {
   let result = [];

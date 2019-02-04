@@ -1,4 +1,4 @@
-<a href="https://leetcode.com/problems/max-increase-to-keep-city-skyline/">Algorithm #807</a>
+<script type="text/javascript" src="https://leetcode.com/problems/max-increase-to-keep-city-skyline/">Algorithm #807</script>
 
 var maxIncreaseKeepingSkyline = function(grid) {
     let topBottomSkyline = [],
