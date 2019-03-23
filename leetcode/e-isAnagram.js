@@ -17,15 +17,16 @@ var isAnagram = function(s, t) {
 
 // if you cannot use sort() --> but slower runtime:
 
-//     for (let i = 0; i < tArr.length; i++) {
-//       if (sArr.includes(tArr[i])) {
-//         sArr[sArr.indexOf(tArr[i])] = ""
-//       }
-//     }
+var isAnagram = function(s, t) {
+    for (let i = 0; i < tArr.length; i++) {
+      if (sArr.includes(tArr[i])) {
+        sArr[sArr.indexOf(tArr[i])] = ""
+      }
+    }
 
-//     if (sArr.filter(char => char).length === 0) {
-//       return true
-//     } else {
-//       return false
-//     }
+    if (sArr.filter(char => char).length === 0) {
+      return true
+    } else {
+      return false
+    }
 };
