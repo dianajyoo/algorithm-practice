@@ -14,6 +14,7 @@ var isAnagram = function(s, t) {
     } else {
       return false
     }
+};
 
 // if you cannot use sort() --> but slower runtime:
 
