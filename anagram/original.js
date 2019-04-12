@@ -1,5 +1,3 @@
-"https://leetcode.com/problems/valid-anagram"
-
 var isAnagram = function(s, t) {
     let tArr = t.split(""), sArr = s.split("")
 

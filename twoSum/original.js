@@ -1,5 +1,3 @@
-"https://leetcode.com/problems/two-sum"
-
 var twoSum = function(nums, target) {
     let results, copy = [...nums]
 
