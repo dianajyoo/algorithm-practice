@@ -1,5 +1,3 @@
-"https://leetcode.com/problems/pascals-triangle"
-
 var generate = function(numRows) {
     let pascal = [[1], [1,1]]
 
