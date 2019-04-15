@@ -3,7 +3,6 @@ let result = [[1], [1,1]]
 const pascalTriangle = (numRows) => {
   let lastRow = result[result.length - 1]
   let newRow = [1]
-  let i = 1
   let nextNum
 
   // edge cases when numRows = 0, 1, or 2
@@ -15,11 +14,10 @@ const pascalTriangle = (numRows) => {
     return result
   }
 
-  while (numRows > 2 && i < lastRow.length) {
+  for (let i = 1; i < lastRow.length; i++) {
     nextNum = lastRow[i - 1] + lastRow[i]
 
     newRow.push(nextNum)
-    i++
   } 
 
   newRow.push(1)
