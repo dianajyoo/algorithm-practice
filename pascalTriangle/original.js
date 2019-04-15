@@ -14,5 +14,5 @@ const generate = function(numRows) {
       }
       pascal[i].push(1)
     }
-  return pascal
+    return pascal
 };

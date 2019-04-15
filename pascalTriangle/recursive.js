@@ -25,7 +25,7 @@ const pascalTriangle = (numRows) => {
   --numRows
   
   if (numRows > 2) {
-    return pascalsTriangle(numRows)
+    return pascalTriangle(numRows)
   } else {
     return result
   }
