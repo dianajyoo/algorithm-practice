@@ -1,4 +1,4 @@
-var generate = function(numRows) {
+const generate = function(numRows) {
     let pascal = [[1], [1,1]]
 
     if (numRows < 1) {
