@@ -1,4 +1,4 @@
-const intToRoman = (n) => {
+const intToRoman = (s) => {
   const storage = {
     M: 1000,
     CM: 900,
@@ -18,9 +18,9 @@ const intToRoman = (n) => {
   let str = ""
 
   for (const k in storage) {
-    while (n >= storage[k]) {
+    while (s >= storage[k]) {
       str += k
-      n -= storage[k]
+      s -= storage[k]
     }
   }
   return str
