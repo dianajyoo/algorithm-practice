@@ -3,15 +3,17 @@
 // and each index is a step
 
 const climbStairs = (n) => {
-  let steps = [1,2];
-  let i = 1;
-  
-  if(n === 1) return 1;
-  while(n !== steps.length) {
-      let nextStep = steps[i - 1] + steps[i];
-      steps.push(nextStep);
-      i++;
+  let start = [1, 2];
+
+  if (n === 1 || n === 2) return n;
+
+  for (let i = 1; i < n; i++) {
+    start.push(start[i - 1] + start[i]);
+
+    if (start.length === n) {
+      return start[n - 1];
+    }
   }
 
-  return steps[steps.length - 1];
+  return 0;
 };
